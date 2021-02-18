@@ -9,6 +9,7 @@ import { BakeryListComponent } from './bakery-products/bakery-list/bakery-list.c
 import { BakeryEditComponent } from './bakery-products/bakery-edit/bakery-edit.component';
 import { BackeryRecipeComponent } from './backery-recipe/backery-recipe.component';
 import { BackeryRecipeListComponent } from './backery-recipe/backery-recipe-list/backery-recipe-list.component';
+import { BakeryRecipeDescriptionComponent } from './backery-recipe/bakery-recipe-description/bakery-recipe-description.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BackeryRecipeListComponent } from './backery-recipe/backery-recipe-list
     BakeryListComponent,
     BakeryEditComponent,
     BackeryRecipeComponent,
-    BackeryRecipeListComponent
+    BackeryRecipeListComponent,
+    BakeryRecipeDescriptionComponent
   ],
   imports: [
     BrowserModule,
